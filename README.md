@@ -1,7 +1,7 @@
 # fine-tune-BERT-base-uncased-QA-SQuAD2.0
 Fine tune bert-base-uncased for Queation answering on SQuAD2.0
 
-This set of program is written by referencing to quite a lot of sources, without them I probably not able to write this.
+This set of program is written by referencing to quite a lot of sources, without them we probably not able to write this.
 
 This repository consisted of few things which is in each folder. Their name should already imply what they do.</br>
 1. Training (fine tune)for bert Question and answering.</br>
