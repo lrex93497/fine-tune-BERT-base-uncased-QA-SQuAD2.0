@@ -23,7 +23,7 @@ They are in "read_txt_and_answer" folder. It is a python program, which can run 
 The QA program use two models, first is for the BERT Question answering, another one is for BERT classifier, which is for classifiering answerable and unanswerable question. For overall structure and for of how the QA program work, see below:
  <img src="image/flow.png" alt="flow.png"> </br>
 
-# Performance 
+# Performance and link to trained model
 We had tested the system on the dev set, at epoch 4 on both classifier and bert QA:</br>
 Exact Match (EM): 53.0784</br>
 f1: 59.1615</br>
@@ -31,13 +31,13 @@ f1: 59.1615</br>
 On the classifier alone, it can get 72.6899% of accuracy for classifing answerable and unanswerable question.</br></br>
 On the QA bert alone, The F1 is 32.7591, EM is 24.9474. In the system, we do not use [CLS] output for unanswerable question, since the QA bert alone has almost no ability to answer unanswerable question, which also leads to low f1 and EM.</br>
 
+The model is uploaded to huggingface, Bert QA at 
+
 # light weight program for reading comprehension answering
 The program is in "Read_txt_and_answer" folder. Before use, please modify values "model_qa" and "classifier_model" inside the .py file to the respective models location. Enter the context into the "context.txt" file, only in the first line. Then run "read_doc_and_answer.py" to wait it ask you to input question. Then you can ask question, if it find answer, it answer the answer. But it determines there is no answer, it output "". You can keep asking questions once it is loaded.</br>
 
 Belows is a example of running the program, using our trained model with context "Bert is a teacher, he teaches class a from Monday to Friday every week. Bert is an experienced teacher with 10 years of teaching experience.":</br>
  <img src="image/demo.PNG" alt="demo.PNG"> </br>
-
-# link to the trained model
 
 # Requirement
 Below is the package and python we had used:</br></br>
