@@ -18,6 +18,6 @@ They are in "read_txt_and_answer" folder.
 
 5. Program to convert .json dataset into .csv for the data needed in different part of the program. The dataset is in .json originally, but for easiler programing, it had been converted into .csv and is used in some of the program. These programs in in these folder in the respective program need it, they are named by convert_json_to_csv... something like this their name imply what they converted.
 
-The QA answer program consisted of two part, first is for the BERT Question answering, another one is for BERT classifier, which is for classifiering answerable and unanswerable question. For overall structure, see below:
+The QA answer program consisted of two models, first is for the BERT Question answering, another one is for BERT classifier, which is for classifiering answerable and unanswerable question. For overall structure, see below:
 
 
