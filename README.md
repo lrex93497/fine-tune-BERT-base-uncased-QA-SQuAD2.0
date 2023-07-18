@@ -35,7 +35,7 @@ On the QA bert alone, The F1 is 32.7591, EM is 24.9474. In the system, we do not
 The program is in "Read_txt_and_answer" folder. Before use, please modify values "model_qa" and "classifier_model" inside the .py file to the respective models location. Enter the context into the "context.txt" file, only in the first line. Then run "read_doc_and_answer.py" to wait it ask you to input question. Then you can ask question, if it find answer, it answer the answer. But it determines there is no answer, it output "". You can keep asking questions once it is loaded.</br>
 
 Belows is a example of running the program, using our trained model with context "Bert is a teacher, he teaches class a from Monday to Friday every week. Bert is an experienced teacher with 10 years of teaching experience.":</br>
- <img src="image/demo.png" alt="flow.png"> </br>
+ <img src="image/demo.PNG" alt="demo.PNG"> </br>
 
 # link to the trained model
 
