@@ -31,8 +31,8 @@ f1: 59.1615</br>
 On the classifier alone, it can get 72.6899% of accuracy for classifing answerable and unanswerable question.</br></br>
 On the QA bert alone, The F1 is 32.7591, EM is 24.9474. In the system, we do not use [CLS] output for unanswerable question, since the QA bert alone has almost no ability to answer unanswerable question, which also leads to low f1 and EM.</br>
 
-The model is uploaded to huggingface, Bert QA at 
-
+The model is uploaded to huggingface, Bert QA at https://huggingface.co/lrex93497/bert_qa_pt_3, Classifier at https://huggingface.co/lrex93497/bert_qa_classifier_pt_3
+</br>
 # light weight program for reading comprehension answering
 The program is in "Read_txt_and_answer" folder. Before use, please modify values "model_qa" and "classifier_model" inside the .py file to the respective models location. Enter the context into the "context.txt" file, only in the first line. Then run "read_doc_and_answer.py" to wait it ask you to input question. Then you can ask question, if it find answer, it answer the answer. But it determines there is no answer, it output "". You can keep asking questions once it is loaded.</br>
 
