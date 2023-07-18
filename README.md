@@ -24,25 +24,27 @@ The QA program use two models, first is for the BERT Question answering, another
  <img src="image/flow.png" alt="flow.png"> </br>
 
 # Performance 
-We had tested the system on the dev set, at epoch 4 on both classifier and bert QA:
-Exact Match (EM): 53.0784
-f1: 59.1615
+We had tested the system on the dev set, at epoch 4 on both classifier and bert QA:</br>
+Exact Match (EM): 53.0784</br>
+f1: 59.1615</br>
 
-On the classifier alone, it can get 72.6899% of accuracy for classifing answerable and unanswerable question
-On the QA bert alone, The F1 is 32.7591, EM is 24.9474. Since the QA bert alone has no ability to answer unanswerable question.
+On the classifier alone, it can get 72.6899% of accuracy for classifing answerable and unanswerable question.</br>
+On the QA bert alone, The F1 is 32.7591, EM is 24.9474. In the system, we do not use [CLS] output for unanswerable question, since the QA bert alone has almost no ability to answer unanswerable question, which also leads to low f1 and EM.</br>
 
 # Requirement
-Below is the package and python we had used:
-Python 	     3.7.9
-Cuda 11.3, may need to change accord to GPU 
-datasets                2.10.1
-transformers            4.26.0.dev0
-pandas                  1.3.5
-numpy                   1.21.6
-matplotlib              3.5.3
-seaborn                 0.12.2
-sklearn                 0.0.post1
-torch                   1.12.1+cu113
-tqdm                    4.64.1
+Below is the package and python we had used:</br>
+Python 	     3.7.9</br>
+Cuda 11.3, may need to change accord to GPU </br>
+datasets                2.10.1</br>
+transformers            4.26.0.dev0</br>
+pandas                  1.3.5</br>
+numpy                   1.21.6</br>
+matplotlib              3.5.3</br>
+seaborn                 0.12.2</br>
+sklearn                 0.0.post1</br>
+torch                   1.12.1+cu113</br>
+tqdm                    4.64.1</br>
 
 # Reference
+https://github.com/ThaddeusSegura/BERT_on_SQuAD/blob/master/SE_classification.ipynb </br>
+https://www.kaggle.com/code/peymaanalavi/questionanswering-on-squad </br>
