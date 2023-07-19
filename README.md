@@ -4,13 +4,13 @@ Fine tune bert-base-uncased for Queation answering on SQuAD 2.0 by using BERT tr
 This set of program is written by referencing to some online sources like code templates, previous works by orders, documents etc., without them we probably not able to write this.
 
 # Index<br />
-### [What is inside the folder](# What is inside the folder)
-### [The structure of the QA system](# The structure of the QA system)
-### [Performance and link to trained model](# Performance and link to trained model)
-### [light weight program for reading comprehension answering](# light weight program for reading comprehension answering)
-### [How to use (Detailed description)](# How to use (Detailed description))
-### [Requirement](# Requirement)
-### [Reference](# Reference)
+[What is inside the folder](#-What-is-inside-the-folder)
+[The structure of the QA system](#-The-structure-of-the-QA-system)
+[Performance and link to trained model](#-Performance-and-link-to-trained-model)
+[light weight program for reading comprehension answering](#-light-weight-program-for-reading-comprehension-answering)
+[How to use (Detailed description)](#-How-to-use-(Detailed-description))
+[Requirement](#-Requirement)
+- [Reference](#reference)
 
 # What is inside the folder
 This repository consisted of few things which is in each folder. Their name should already imply what they do.</br>
@@ -48,10 +48,10 @@ The program is in "Read_txt_and_answer" folder. Before use, please modify values
 Belows is a example of running the program, using our trained model with context "Bert is a teacher, he teaches class a from Monday to Friday every week. Bert is an experienced teacher with 10 years of teaching experience.":</br>
  <img src="image/demo.PNG" alt="demo.PNG"> </br>
 
-# How to use (Detailed description)
+#How to use (Detailed description)
 Detailed description of how to every things in this respository is recorded in how_to_use.pdf .
 
-# Requirement
+#Requirement
 Below is the package and python we had used:</br></br>
 Python 	     3.7.9</br>
 Cuda 11.3, may need to change accord to GPU </br>
