@@ -9,7 +9,7 @@ This set of program is written by referencing to some online sources like code t
 [Performance and link to trained model](#-Performance-and-link-to-trained-model)
 [light weight program for reading comprehension answering](#-light-weight-program-for-reading-comprehension-answering)
 [How to use (Detailed description)](#-How-to-use-(Detailed-description))
-[Requirement](#-Requirement)
+- [Requirement](#Requirement)
 - [Reference](#reference)
 
 # What is inside the folder
