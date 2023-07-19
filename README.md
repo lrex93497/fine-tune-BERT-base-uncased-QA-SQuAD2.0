@@ -38,7 +38,7 @@ Exact Match (EM): 53.0784</br>
 f1: 59.1615</br>
 
 On the classifier alone, it can get 72.6899% of accuracy for classifing answerable and unanswerable question.</br></br>
-On the QA bert alone, The F1 is 32.7591, EM is 24.9474. In the system, we do not use [CLS] output for unanswerable question, since the QA bert alone has almost no ability to answer unanswerable question, which also leads to low f1 and EM.</br>
+On the QA bert alone, The F1 is 32.7591, EM is 24.9474. In the system, we do not use [CLS] output for unanswerable question, since the QA bert alone has almost no ability to answer unanswerable question, which also leads to low f1 and EM. However, for QA bert alone and counting answerable question only, f1 score is 62.04. </br>
 
 The model is uploaded to huggingface, Bert QA at https://huggingface.co/lrex93497/bert_qa_pt_3, Classifier at https://huggingface.co/lrex93497/bert_qa_classifier_pt_3
 </br>
