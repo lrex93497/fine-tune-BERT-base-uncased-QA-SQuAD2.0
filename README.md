@@ -1,7 +1,7 @@
 # Fine-tune-BERT-base-uncased-QA-SQuAD2.0
 Fine tune bert-base-uncased for Queation answering on SQuAD 2.0 by using BERT transofrmers
 
-This set of program is written by referencing to some online sources like code template, orders work, documents etc., without them we probably not able to write this.
+This set of program is written by referencing to some online sources like code templates, previous works by orders, documents etc., without them we probably not able to write this.
 
 # What is inside the folder
 This repository consisted of few things which is in each folder. Their name should already imply what they do.</br>
